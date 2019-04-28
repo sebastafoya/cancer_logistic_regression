@@ -188,7 +188,7 @@ def model(X_train, Y_train, X_test, Y_test, learning_rate, epochs = 2000):
 if __name__ == '__main__':
 
     #Load file to data frame
-    df = pd.read_csv("data_tumors.csv")
+    df = pd.read_csv("dataset/data_tumors.csv")
 
     #Explore the file
     print(df.head())
